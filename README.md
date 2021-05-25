@@ -7,8 +7,6 @@
 - CSS,
 - ES6,
 - React.js
-- VS Code
-- Firefox Developer Edition
 
 ## Live Demo
 

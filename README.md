@@ -18,9 +18,11 @@
 
   1. Clone the project using `git clone https://github.com/8Bts/Calculator-React.git` command.
 
-  2. run `npm install`.
+  2. run `cd Calculator-React`.
 
-  3. run `npm start`
+  3. run `npm install`.
+
+  4. run `npm start`.
 
 ## Author
 

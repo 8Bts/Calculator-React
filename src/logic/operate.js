@@ -17,6 +17,9 @@ const operate = (num1, num2, operation) => {
     case '/':
       result = a.div(b);
       break;
+    case '%':
+      result = b.div(100);
+      break;
     default:
       break;
   }

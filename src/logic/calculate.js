@@ -1,8 +1,11 @@
 import operate from './operate';
 
+let priorNext;
+let priorOp;
+
 const calculate = (data, btnName) => {
   let {
-    total, next, operation, content, priorNext, priorOp,
+    total, next, operation, content,
   } = data;
 
   switch (btnName) {
@@ -54,7 +57,7 @@ const calculate = (data, btnName) => {
       break;
     case '%':
       if (next) {
-        next /= 100;
+        next = operate(-1, next, '%');
         content += '%';
       }
       break;

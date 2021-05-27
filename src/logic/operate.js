@@ -15,6 +15,7 @@ const operate = (num1, num2, operation) => {
       result = a.times(b);
       break;
     case '/':
+      if (num2 === '0') return a;
       result = a.div(b);
       break;
     case '%':

@@ -1,6 +1,9 @@
 # Calculator React
   This is simple calculator application performing basic math operations. Built for web browsers. Check the [Live Demo](#Live-Demo) below or [install it locally](#Setup) to try it out.
 
+
+![screenshot](public/screenshot.png)
+
 ## Built With
 
 - HTML,

@@ -24,3 +24,7 @@ body {
   text-align: center;
   line-height: 85px;
 }
+
+.btn-group {
+  height: 100px;
+}

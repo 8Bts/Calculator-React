@@ -6,31 +6,31 @@ const ButtonPanel = (props) => {
 
   return (
     <div>
-      <div className="btn-group-1">
+      <div className="btn-group btn-group-1">
         <Button clickHandler={handleCLick} name="AC" />
         <Button clickHandler={handleCLick} name="+/-" />
         <Button clickHandler={handleCLick} name="%" />
         <Button clickHandler={handleCLick} name="/" />
       </div>
-      <div className="btn-group-2">
+      <div className="btn-group btn-group-2">
         <Button clickHandler={handleCLick} name="7" />
         <Button clickHandler={handleCLick} name="8" />
         <Button clickHandler={handleCLick} name="9" />
         <Button clickHandler={handleCLick} name="X" />
       </div>
-      <div className="btn-group-3">
+      <div className="btn-group btn-group-3">
         <Button clickHandler={handleCLick} name="4" />
         <Button clickHandler={handleCLick} name="5" />
         <Button clickHandler={handleCLick} name="6" />
         <Button clickHandler={handleCLick} name="-" />
       </div>
-      <div className="btn-group-4">
+      <div className="btn-group btn-group-4">
         <Button clickHandler={handleCLick} name="1" />
         <Button clickHandler={handleCLick} name="2" />
         <Button clickHandler={handleCLick} name="3" />
         <Button clickHandler={handleCLick} name="+" />
       </div>
-      <div className="btn-group-5">
+      <div className="btn-group btn-group-5">
         <Button clickHandler={handleCLick} name="0" />
         <Button clickHandler={handleCLick} name="." />
         <Button clickHandler={handleCLick} name="=" />
